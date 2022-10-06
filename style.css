@@ -1,0 +1,139 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3em;
+}
+p{
+    color: blue;
+    margin: 10px;
+    padding: auto;
+    font-size: 1.1em;
+}
+.card{
+    text-align: center;
+    height: 300px;
+    background-image: url("https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/mastehead(web).svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    background-color: #09c;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 35px;
+}    
+input:hover{
+    box-shadow: inset 0 0 50px rgb(5, 104, 138);
+    cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Serif:wght@100&display=swap');
+
+img {
+    margin-top: 15px;
+}
+.navbar {
+    float: right;
+    margin-right: 70px;
+    display: flex;
+}
+.nav-button {
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container
+{
+    display: flex;
+    /* justify-content: space-evenly;  */
+}
+.card1
+{
+    border: 2px groove gray;
+    width: 200px;
+    height: 200px; 
+    margin: 10px auto;
+}
+@media screen and (max-width:720px) {
+    .container{
+        flex-direction: column
+    }
+}
+.button {
+    background-color: rgb(135, 135, 245);
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    margin:12px;
+    font-size: larger;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 480px) {
+    .div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+        background-color: green;
+        height: 50px;
+        width: 150px;
+        border-radius: 35px;
+        margin:12px;
+        font-size: larger;
+        color: cornsilk;
+        cursor: pointer;
+    }
+
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .div{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+       
+    }
+    .button {
+        background-color: red;
+        height: 50px;
+        width: 150px;
+        border-radius: 35px;
+        margin:12px;
+        font-size: larger;
+        color: cornsilk;
+        cursor: pointer;
+    }
+
+}
+.container1 {
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+}
+span{
+    color: red;
+}
